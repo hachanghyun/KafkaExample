@@ -4,7 +4,7 @@
 
 ## 카프카 아키텍처
 
-![kafka](../images/kafka/kafka.png)
+![kafka](https://github.com/hachanghyun/KafkaExample/assets/33058284/a4a207cd-c977-43d3-8752-8d7128794e8d)
 
 
 ## 동작 흐름
@@ -30,7 +30,8 @@
 
 ## 카프카 구성요소
 
-![kafkadata](../images/kafka/kafkadata.png)
+![kafkadata](https://github.com/hachanghyun/KafkaExample/assets/33058284/7c718727-1097-45f8-a83a-d068bdd56aa8)
+
 
 ## 브로커(Brokers)
 
@@ -46,7 +47,8 @@
 
 ## 토픽(Topic)
 
-![topic](../images/kafka/topic.png)
+<img width="1054" alt="topic" src="https://github.com/hachanghyun/KafkaExample/assets/33058284/9c3bf4b3-5f12-44d2-9467-a9e8b9ea5ca2">
+
 
     브로커에서 데이터를 관리할 때 기준이 되는 개념
 
@@ -78,7 +80,8 @@
 
 ## 복제 계수(Replication Factor)
 
-![replication](../images/kafka/replication.jpeg)
+![replication](https://github.com/hachanghyun/KafkaExample/assets/33058284/1bede02f-d907-4b83-941d-818711805c7c)
+
 
       토픽을 복제 해두는 것. 다운되는것을 예방하기 위해
 
@@ -113,7 +116,8 @@
 
 ## 프로듀서(Producers)
 
-![producer](../images/kafka/producer.png)
+<img width="1497" alt="producer" src="https://github.com/hachanghyun/KafkaExample/assets/33058284/760ae68f-06be-42ff-806b-8cea5fcb2de4">
+
 
       메시지를 생산해서 브로커의 토픽으로 메시지를 보내는 역할을 하는 애플리케이션이나 서버 모두를 프로듀서라고 부름.
 
@@ -122,7 +126,8 @@
 
 ## 메세지 키(message keys)
 
-![messagekey](../images/kafka/messagekey.png)
+<img width="1469" alt="messagekey" src="https://github.com/hachanghyun/KafkaExample/assets/33058284/07c9771a-0fba-4e40-be9b-31e17187c720">
+
 
       프로듀서가 데이터를 writer 할 때, 
 
@@ -133,7 +138,8 @@
       key를 지정하면, 항상 같은 파티션으로 보내짐.
 
 ## 컨슈머(consumers)
-![consumer](../images/kafka/consumer.png)
+<img width="1275" alt="consumer" src="https://github.com/hachanghyun/KafkaExample/assets/33058284/19d948fd-7cdf-4598-89da-b2f676521f0d">
+
 
       파티션에 저장되어 있는 메시지를 소비하는 역할을 하는 애플리케이션이나 서버 모두
 
@@ -141,7 +147,8 @@
 
 ## 컨슈머 그룹
 
-![consumergroup](../images/kafka/consumergroup.png)
+<img width="1595" alt="consumergroup" src="https://github.com/hachanghyun/KafkaExample/assets/33058284/9bd264fd-f337-4c27-b6ce-3847e67a4b59">
+
 
     동일 토픽에 대해 여러 컨슈머가 메시지를 가져갈 수 있도록 컨슈머 그룹을 만듦.
 
@@ -150,14 +157,6 @@
     하나의 파티션당 하나의 컨슈머가 연결. 그룹 내의 컨슈머는 각기 다른 파티션에 할당.
 
     컨슈머의 수가 파티션의 수보다 많다면, 몇 컨슈머는 놀게 됨
-
-## 참조
-
-https://velog.io/@jaehyeong/Apache-Kafka%EC%95%84%ED%8C%8C%EC%B9%98-%EC%B9%B4%ED%94%84%EC%B9%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80
-
-https://velog.io/@king3456/Apache-Kafka-%EA%B8%B0%EB%B3%B8%EA%B0%9C%EB%85%90
-
-https://velog.io/@jwpark06/Kafka-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B5%AC%EC%A1%B0-%EC%95%8C%EC%95%84%EB%B3%B4%EA%B8%B0
 
 # Kafka 설치 및 실행
 
